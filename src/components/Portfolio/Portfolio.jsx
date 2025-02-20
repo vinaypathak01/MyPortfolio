@@ -12,7 +12,7 @@ const Portfolio = () => {
       deployedLink: "https://still-cliffs-68409.herokuapp.com/dashboard/app",
       image: require("../../assets/BS.png"),
       fadeDuration: "1000",
-      githubLink: "Watch-Store",
+      githubLink: "Bharat-Seats-CRM",
       description:
         "Developed an admin portal using React to facilitate efficient management of multiple business operations, including User, Profile, Supplier, and Delivery Management.",
       toolsUsed: [
@@ -73,7 +73,7 @@ const Portfolio = () => {
       githubLink: "Watch-Store",
       fadeDuration: "1500",
       description:
-        "Developed a visually captivating and responsive watch e-commerce platform using HTML, CSS, and JavaScriptshowcasing a sleek and modern design",
+        "Developed a visually captivating and responsive watch e-commerce platform using HTML, CSS, and JavaScript show casing a sleek and modern design",
       toolsUsed: ["JavaScript", "HTML/CSS"],
     },
   ];
