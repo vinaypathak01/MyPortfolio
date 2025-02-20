@@ -6,7 +6,7 @@ const CTA = () => {
       <a
         data-aos="fade-right"
         target="_blank"
-        href="https://drive.google.com/file/d/1QSGZaMzHw5U6WsX929VajYQshb6wzZF4/view?usp=sharing"
+        href="https://drive.google.com/drive/u/1/folders/1HDCYuFVMZx-kB6hsPdtPDkK5l0P-dtzj"
         className="btn"
         rel="noreferrer"
       >
