@@ -8,15 +8,18 @@ import { TbStars } from "react-icons/tb";
 
 const Nav = ({ activeNav, setActiveNav }) => {
   const handleClick = (event) => {
+    event.preventDefault();
     const anchor = event.target.closest("a");
-    setActiveNav(anchor.getAttribute("href"));
+    if (anchor && anchor.getAttribute("href") !== "#") {
+      setActiveNav(anchor.getAttribute("href"));
+    }
   };
 
   return (
     <nav>
       <a
-        href="#"
-        className={activeNav === "#" ? "active" : ""}
+        href="/"
+        className={activeNav === "/" ? "active" : ""}
         onClick={handleClick}
       >
         <AiOutlineHome />

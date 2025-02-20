@@ -7,7 +7,7 @@ const Footer = () => {
     <footer className="footer__container">
       <ul className="permalinks">
         <li>
-          <a href="#">Home</a>
+          <a href="/">Home</a>
         </li>
         <li>
           <a href="#about">About</a>
@@ -27,13 +27,25 @@ const Footer = () => {
       </ul>
 
       <div className="footer__socials">
-        <a href="https://www.linkedin.com/in/vinaypathakk/">
+        <a
+          href="https://www.linkedin.com/in/vinaypathakk/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <BsLinkedin />
         </a>
-        <a href="https://www.instagram.com/the_vinay_pathak/">
+        <a
+          href="https://www.instagram.com/the_vinay_pathak/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <BsInstagram />
         </a>
-        <a href="https://x.com/the_vinaypathak">
+        <a
+          href="https://x.com/the_vinaypathak"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <BsTwitter />
         </a>
       </div>
