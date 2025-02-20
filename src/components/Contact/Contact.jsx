@@ -17,19 +17,19 @@ const Contact = () => {
 
     emailjs
       .sendForm(
-        "react-portfolio",
-        "template_4gd7rzp",
+        "service_23qj9ym",
+        "template_nz0jxo7",
         form.current,
-        "dASa0UBkTt7BX_s5A"
+        "UG-KzUlx2oEK7C716"
       )
-      .then(
-        (result) => {
-          toast.success("Message sent to Vinay");
-        },
-        (error) => {
-          toast.error("Oops something went wrong");
-        }
-      );
+      .then((result) => {
+        toast.success("Message sent successfully!");
+        console.log("Success:", result.text);
+      })
+      .catch((error) => {
+        toast.error("Failed to send message. Please try again later.");
+        console.error("Error:", error);
+      });
 
     e.target.reset();
   };
