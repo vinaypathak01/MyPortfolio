@@ -18,20 +18,23 @@ const Contact = () => {
     emailjs
       .sendForm(
         "service_23qj9ym",
-        "template_nz0jxo7",
+        "template_m2jdlc9",
         form.current,
         "UG-KzUlx2oEK7C716"
       )
-      .then((result) => {
-        toast.success("Message sent successfully!");
-        console.log("Success:", result.text);
-      })
-      .catch((error) => {
-        toast.error("Failed to send message. Please try again later.");
-        console.error("Error:", error);
+      .then(
+        (result) => {
+          toast.success("Message sent successfully! ✅");
+          console.log("Success:", result.text);
+        },
+        (error) => {
+          toast.error("Failed to send message. ❌ Please try again later.");
+          console.error("Error:", error);
+        }
+      )
+      .finally(() => {
+        e.target.reset();
       });
-
-    e.target.reset();
   };
 
   return (
