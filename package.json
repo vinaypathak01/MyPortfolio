@@ -1,5 +1,5 @@
 {
-  "homepage": "https://timi.codes/",
+  "homepage": "",
   "name": "react-portfolio-web",
   "version": "0.1.0",
   "private": true,
@@ -15,7 +15,7 @@
     "react-dom": "^18.2.0",
     "react-icons": "^4.7.1",
     "react-loader-spinner": "^5.3.4",
-    "react-scripts": "5.0.1",
+    "react-scripts": "^5.0.1",
     "react-toastify": "^9.1.1",
     "sass": "^1.57.1",
     "swiper": "^8.4.5",
