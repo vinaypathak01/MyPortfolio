@@ -1,12 +1,8 @@
 import React from "react";
 import "./about.scss";
 import { FaAward, FaTelegramPlane } from "react-icons/fa";
-import { FiUsers } from "react-icons/fi";
 import { BsClipboardCheck } from "react-icons/bs";
-
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-
-// Brand Svg icons
 import {
   faJava,
   faCss3,
@@ -19,20 +15,11 @@ import {
 const About = () => {
   return (
     <section id="about">
-      <h5 data-aos="fade-up" data-aos-anchor="#about" data-aos-duration="900">
-        Unlock the mysteries of me
-      </h5>
-      <h2 data-aos="fade-up" data-aos-anchor="#about" data-aos-duration="700">
-        About me
-      </h2>
+      <h5>Unlock the mysteries of me</h5>
+      <h2>About me</h2>
 
       <div className="container about__container">
-        <div
-          className="stage-cube-cont"
-          data-aos="fade-right"
-          data-aos-anchor=".about__container"
-          data-aos-duration="500"
-        >
+        <div className="stage-cube-cont">
           <div className="cubespinner">
             <div className="face1">
               <FontAwesomeIcon icon={faJava} color="#1e3050" />
@@ -57,61 +44,26 @@ const About = () => {
 
         <div className="about__content">
           <div className="about__cards">
-            {/* Experience  */}
-            <article
-              className="about__card"
-              data-aos="fade-left"
-              data-aos-anchor=".about__cards"
-              data-aos-duration="500"
-            >
+            <article className="about__card">
               <FaAward className="about__icon" />
               <h5>Experience</h5>
               <small>1 year Experience</small>
             </article>
-
-            {/* Collaborators  */}
-            {/* <article className="about__card" data-aos="fade-left" data-aos-anchor=".about__cards"  data-aos-duration="700">
-                <FiUsers className='about__icon'/>
-                <h5>Collaborators</h5>
-                <small>30+ Worldwide</small>
-            </article> */}
-
-            {/* Projects  */}
-            <article
-              className="about__card"
-              data-aos="fade-left"
-              data-aos-anchor=".about__cards"
-              data-aos-duration="900"
-            >
+            <article className="about__card">
               <BsClipboardCheck className="about__icon" />
-              <h5>Project</h5>
+              <h5>Projects</h5>
               <small>4 Completed Projects</small>
             </article>
           </div>
 
-          <p
-            data-aos="fade-up"
-            data-aos-anchor=".about__content"
-            data-aos-duration="1000"
-          >
-            Hello, There. I'm Vinay Pathak. <br />
-            I am a Software Developer that specializes in building creative and
-            intuitive Web applications.
-            <br />A cricket, football, and travel enthusiast with a passion for
-            exploring new places. Skilled in building web applications and
-            continuously learning to enhance my skills in Java, React, and
-            full-stack development. Excited to work on impactful projects and
-            collaborate with driven, positive individuals. Let’s create
-            something meaningful together!
+          <p>
+            Hello, I'm Vinay Pathak, a Software Developer specializing in web
+            applications. I love cricket, football, and traveling. I'm always
+            eager to improve my skills in Java, React, and full-stack
+            development. Let's create something meaningful together!
           </p>
 
-          <a
-            href="#contact"
-            className="btn btn-primary"
-            data-aos="fade-up"
-            data-aos-anchor=".about__content"
-            data-aos-duration="1200"
-          >
+          <a href="#contact" className="btn btn-primary">
             Let's chat <FaTelegramPlane />
           </a>
         </div>
