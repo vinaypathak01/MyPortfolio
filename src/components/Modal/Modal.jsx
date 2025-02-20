@@ -31,10 +31,10 @@ const Modal = ({ closeModal, project }) => {
           >
             Source Code
           </a>{" "}
-          {/* and the{" "}
+          and the{" "}
           <a href={deployedLink} target="_blank" rel="noreferrer">
             Live Demo
-          </a> */}
+          </a>
           .
         </p>
 
