@@ -47,12 +47,12 @@ const About = () => {
             <article className="about__card">
               <FaAward className="about__icon" />
               <h5>Experience</h5>
-              <small>1 year Experience</small>
+              <small>1+ year Experience</small>
             </article>
             <article className="about__card">
               <BsClipboardCheck className="about__icon" />
               <h5>Projects</h5>
-              <small>4 Completed Projects</small>
+              <small>10+ Completed Projects</small>
             </article>
           </div>
 

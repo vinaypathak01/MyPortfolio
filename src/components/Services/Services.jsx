@@ -35,7 +35,7 @@ const Services = () => {
             <li>
               <BiCheck className="service__list-icon" />
               <h5 style={{ color: "#3498db" }}>
-                Software Engineer(July 2024- Present) @Infodart Technology Ltd,
+                Software Engineer(July 2024- Nov 2024) @Infodart Technology Ltd,
                 India | Frontend Developer | React Specialist
               </h5>
             </li>
