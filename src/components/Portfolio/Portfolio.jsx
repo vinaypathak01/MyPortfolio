@@ -28,7 +28,7 @@ const Portfolio = () => {
       name: "Eauset CRM Portal",
       deployedLink: "https://nameless-basin-36851.herokuapp.com/",
       image: require("../../assets/eauset.png"),
-      githubLink: "Watch-Store",
+      githubLink: "https://github.com/vinaypathak01/Bharat-Seats-CRM",
       description:
         "Developed an admin portal using React to facilitate efficient management of multiple business operations, including User, Profile, Supplier, and Delivery Management.",
       fadeDuration: "1100",
